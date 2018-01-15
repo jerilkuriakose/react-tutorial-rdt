@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <!-- The react package holds the react source for components, state, props and all the code that is react -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- glue between React and the DOM -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- A source-to-source compiler, transcompiler or transpiler is a type of compiler that takes the source code of a program written in one programming language as its input and produces the equivalent source code in another programming language. -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+     <!-- target div or element -->
+    <div id="root"></div>
+    <!-- type signifies it requires babel conversion -->
+    <script type="text/babel">
+
+      ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('root')
+      );
+
+    </script>
+  </body>
+</html>
