@@ -1,12 +1,12 @@
 ## Instructions to run
 ```
-1. *npm install*
-2. *npm run dev*
+1. npm install
+2. npm run dev
 3. Navigate to localhost:8080
 ```
 
 ```
-Start writing your code from 'src/js/client.js'
+Start writing your code in 'src/js/client.js'
 ```
 
 ## References
